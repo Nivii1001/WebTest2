@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>socialMedia_icons</title>
+    <style>
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+    margin-left: 500px; 
+    background-color: rgb(161, 63, 63);
+}
+
+
+        .logo {
+    display: flex;
+    flex: 1;
+    gap: 5px; 
+        }
+
+.fb {
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: white;
+    object-fit: cover;
+    margin: 0; 
+}
+
+.f, .t, .i, .g, .y {
+    display: flex;
+    align-items: center;
+}
+
+.fbicon {
+    display: flex;
+    align-items: center;
+}
+
+.tooltip {
+    position: absolute;
+    color: white;
+    background-color: rgb(27, 27, 134);
+    padding: 4px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    margin-bottom: 100px;
+}
+
+.f:hover .tooltip,
+.t:hover .tooltip,
+.i:hover .tooltip,
+.g:hover .tooltip,
+.y:hover .tooltip {
+    background-color: rgb(26, 26, 128);
+    opacity: 1;
+}
+.fb:hover{
+    background-color: rgb(40, 40, 122);
+    opacity: 1;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="f">
+       <div class="fbicon"><img class="fb" src="facebkicon.png"></div>
+            <div class="tooltip">Facebook</div>
+    </div>
+    <div class="t">
+      <div class="twicon">  <img class="fb" src="twittericon.png"></div>
+        <div class="tooltip">Twitter</div>
+    </div>
+        <div class="i">
+       <div class="fbicon"> <img class="fb" src="instaicon.png"></div>
+        <div class="tooltip">Instagram</div>
+    </div>
+    <div class="g">
+       <div class="fbicon"> <img class="fb" src="giticon.png"></div> 
+        <div class="tooltip">GitHub</div>
+    </div>
+    <div class="y">
+       <div class="fbicon"> <img class="fb" src="utubeicon.png"></div>
+    </div>
+</body>
+</html>
